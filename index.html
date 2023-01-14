@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/style.css">
+   <title>CV</title>
+</head>
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="header__inner">
+            <div class="header__logo">
+               <h1>MY<span>CV</span></h1>
+            </div>
+            <nav class="nav" id="nav">
+               <a class="nav_link" href="#intro">About me</a>
+               <a class="nav_link" href="#education">Education</a>
+               <a class="nav_link" href="#skills">Skills</a>
+               <a class="nav_link" href="#motivation">Motivation</a>
+               <a class="nav_link" href="#footer">Contacts</a>
+            </nav>
+            <button class="burger" type="button" id="navToggle">
+               <span class="burger_item">Menu</span>
+            </button>
+         </div>
+      </div>
+   </header>
+      
+   <main>
+
+      <div class="intro" id="intro">
+         <div class="container">
+            <div class="intro__inner">
+               <img class="intro__img" src="assets/img/photo.jpg" alt="photo">
+               <div class="intro__text">
+                  <h2 class="intro__title">Anton Golomuzdov</h2>
+                  <h3 class="intro__subtitle">Frontend Developer</h3>
+                  <h3 class="intro__slogan"><i>Hello, My name is Anton. I am 27 years old. In the future, I would really like to work and progress in the field of IT. I like smart and progressive people who work in this field. My strengths include planning in advance, quick learner, punctuality and not afraid of the new. In people I value responsibility, courtesy, reliability, continuous development and bringing what has been started to the result.</i></h3>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="container">
+         <div class="education" id="education">
+            <div class="title">
+               <span>
+                  Education
+               </span>
+            </div>
+            <div class="education__text">
+               Belarusian National Technical University 09/2015 - 06/2020 <br>
+               Design engineer (mechanical engineering)
+            </div>
+            <div class="education__svg">
+               <img src="assets/svg/dots.svg" alt="dots">
+            </div>
+            <div class="education__text">
+               The Rolling Scopes School 09/2022 - In Progress <br>
+               JS Front-End
+            </div>
+         </div>
+      </div>
+
+      <div class="skills" id="skills">
+         <div class="container">
+            <div class="skills__inner">
+               <div class="title">
+                  <span>
+                     Skills
+                  </span>
+               </div>
+               <div class="skills__items">
+                  <img class="skills__icons" src="assets/svg/html-icon.svg" alt="html">
+                  <img class="skills__icons" src="assets/svg/css-icon.svg" alt="css">
+                  <img class="skills__icons" src="assets/svg/js-icon.svg" alt="js">
+                  <img class="skills__icons" src="assets/svg/ts-icon.svg" alt="ts">
+                  <img class="skills__icons" src="assets/svg/webpack-icon.svg" alt="webpack">
+                  <img class="skills__icons" src="assets/svg/git-icon.svg" alt="git">
+                  <img class="skills__icons" src="assets/svg/sass-icon.svg" alt="sass">
+                  <img class="skills__icons" src="assets/svg/npm-icon.svg" alt="npm">
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="motivation" id="motivation">
+         <div class="container">
+            <div class="motivation__inner">
+               <div class="title">
+                  <span>
+                     Motivation
+                  </span>
+               </div>
+               <div class="slider__container slider">
+                  <div class="slider__items">
+                     <input type="radio" name="slider" id="slider_1" checked>
+                     <input type="radio" name="slider" id="slider_2">
+                     <input type="radio" name="slider" id="slider_3">
+                     <input type="radio" name="slider" id="slider_4">
+                  <div class="slider__content" id="content">
+                     <div class="slide s1"><img src="assets/img/quote-1.jpg" alt="quote-1"></div>
+                     <div class="slide"><img src="assets/img/quote-2.jpg" alt="quote-2"></div>
+                     <div class="slide"><img src="assets/img/quote-3.jpg" alt="quote-3"></div>
+                     <div class="slide"><img src="assets/img/quote-4.jpg" alt="quote-4"></div>
+                  </div>
+                  <div class="slider__navigation" id="navigation">
+                     <div class="slider__navigation-container">
+                        <div class="slider__navigation-items">
+                           <label for="slider_1" class="nav_item">
+                              <span></span>
+                           </label>
+                           <label for="slider_2" class="nav_item">
+                              <span></span>
+                           </label>
+                           <label for="slider_3" class="nav_item">
+                              <span></span>
+                           </label>
+                           <label for="slider_4" class="nav_item">
+                              <span></span>
+                           </label>
+                        </div>
+                     </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </main>
+
+   <footer class="footer" id="footer">
+      <div class="container">
+         <div class="footer__inner">
+            <div class="footer__contacts">
+               <div class="footer__item">
+                  <a href="https://www.linkedin.com/in/anton-golomuzdov-069545255/" target="_blank"><img class="footer__contacts-logo" src="assets/svg/linkedin-icon.svg" alt="linkedin"></a>
+               </div>
+               <div class="footer__item">
+                  <a href="https://t.me/MSteelver" target="_blank"><img class="footer__contacts-logo" src="assets/svg/telegram-icon.svg" alt="telegram"></a>
+               </div>
+               <div class="footer__item">
+                  <a href="https://github.com/Golomuzdov" target="_blank"><img class="footer__contacts-logo" src="assets/svg/github-icon.svg" alt="github"></a>
+               </div>
+            </div>
+            <div class="footer__datamola">
+               <p class="datamola-text">Created for</p>
+               <a href="https://www.datamola.com/js-from-zero-to-hero" target="_blank"><img class="datamola" src="assets/img/datamola.jfif" alt="datamola"></a>
+               <p class="datamola-text">DataMola</p>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="app/app.js"></script>
+</body>
+</html>
