@@ -181,7 +181,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__img {
    width: 200px;
-   border-radius: 100px;
+   margin: auto;
+   border-radius: 80px;
 }
 
 .intro__title {
@@ -206,6 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro__slogan {
    margin-top: 30px;
    opacity: 0.8;
+   font-size: 20px;
 }
 
 .education__text {
