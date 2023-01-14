@@ -1,39 +1,9 @@
-const images = document.querySelectorAll('.slider .slider__line div');
-const sliderLine = document.querySelector('.slider .slider__line');
-let count = 0;
-let width;
+const navBtn = document.querySelector('#navToggle');
+const navLink = document.querySelector('.nav');
+const burgerItem = document.querySelector('.burger_item');
 
-function init() {
-    console.log('resize');
-    width = document.querySelector('.slider').offsetWidth;
-    sliderLine.style.width = width * images.length + 'px';
-    images.forEach(item => {
-        item.style.width = width + 'px';
-        item.style.height = 'auto';
-    });
-    rollSlider();
-}
-
-init();
-window.addEventListener('resize', init);
-
-document.querySelector('.slider-next').addEventListener('click', function () {
-    count++;
-    if (count >= images.length) {
-        count = 0;
-    }
-    rollSlider();
+navBtn.addEventListener('click', () => {
+    burgerItem.classList.toggle('active');
+    navLink.classList.toggle('active');
+    console.log('клик');
 });
-
-document.querySelector('.slider-prev').addEventListener('click', function () {
-    count--;
-    if (count < 0) {
-        count = images.length - 1;
-    }
-    rollSlider();
-});
-
-function rollSlider() {
-    sliderLine.style.transform = 'translate(-' + count * width + 'px)';
-
-}

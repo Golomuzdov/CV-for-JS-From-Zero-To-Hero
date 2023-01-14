@@ -15,20 +15,22 @@
                <h1>MY<span>CV</span></h1>
             </div>
             <nav class="nav" id="nav">
-               <a class="nav_link" href="#">About me</a>
-               <a class="nav_link" href="#">Education</a>
-               <a class="nav_link" href="#">Skills</a>
-               <a class="nav_link" href="#">Motivation</a>
-               <a class="nav_link" href="#">Contacts</a>
+               <a class="nav_link" href="#intro">About me</a>
+               <a class="nav_link" href="#education">Education</a>
+               <a class="nav_link" href="#skills">Skills</a>
+               <a class="nav_link" href="#motivation">Motivation</a>
+               <a class="nav_link" href="#footer">Contacts</a>
             </nav>
-            <!-- <button></button> -->
+            <button class="burger" type="button" id="navToggle">
+               <span class="burger_item">Menu</span>
+            </button>
          </div>
       </div>
    </header>
       
    <main>
 
-      <div class="intro">
+      <div class="intro" id="intro">
          <div class="container">
             <div class="intro__inner">
                <img class="intro__img" src="assets/img/photo.jpg" alt="photo">
@@ -42,7 +44,7 @@
       </div>
 
       <div class="container">
-         <div class="education">
+         <div class="education" id="education">
             <div class="title">
                <span>
                   Education
@@ -62,7 +64,7 @@
          </div>
       </div>
 
-      <div class="skills">
+      <div class="skills" id="skills">
          <div class="container">
             <div class="skills__inner">
                <div class="title">
@@ -77,14 +79,14 @@
                   <img class="skills__icons" src="assets/svg/ts-icon.svg" alt="ts">
                   <img class="skills__icons" src="assets/svg/webpack-icon.svg" alt="webpack">
                   <img class="skills__icons" src="assets/svg/git-icon.svg" alt="git">
-                  <img class="skills__icons" src="assets/svg/mysql-icon.svg" alt="mysql">
+                  <img class="skills__icons" src="assets/svg/sass-icon.svg" alt="sass">
                   <img class="skills__icons" src="assets/svg/npm-icon.svg" alt="npm">
                </div>
             </div>
          </div>
       </div>
 
-      <div class="motivation">
+      <div class="motivation" id="motivation">
          <div class="container">
             <div class="motivation__inner">
                <div class="title">
@@ -130,7 +132,7 @@
 
    </main>
 
-   <footer class="footer">
+   <footer class="footer" id="footer">
       <div class="container">
          <div class="footer__inner">
             <div class="footer__contacts">
@@ -152,5 +154,7 @@
          </div>
       </div>
    </footer>
+
+   <script src="app/app.js"></script>
 </body>
 </html>
