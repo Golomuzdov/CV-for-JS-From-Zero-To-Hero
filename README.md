@@ -1,1 +1,1 @@
-# CV-for-JS-From-Zero-To-Hero
+Deploy: https://Golomuzdov.github.io/CV-for-JS-From-Zero-To-Hero/
