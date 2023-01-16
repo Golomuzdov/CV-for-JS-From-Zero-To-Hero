@@ -11,18 +11,18 @@
    <header class="header">
       <div class="container">
          <div class="header__inner">
-            <div class="header__logo">
-               <h1>MY<span>CV</span></h1>
+            <div class="header__inner-logo">
+               <h2>CV</h2>
             </div>
-            <nav class="nav" id="nav">
-               <a class="nav_link" href="#intro">About me</a>
-               <a class="nav_link" href="#education">Education</a>
-               <a class="nav_link" href="#skills">Skills</a>
-               <a class="nav_link" href="#motivation">Motivation</a>
-               <a class="nav_link" href="#footer">Contacts</a>
+            <nav class="header__inner-nav" id="nav">
+               <a class="header__inner-nav-link" href="#intro">About me</a>
+               <a class="header__inner-nav-link" href="#education">Education</a>
+               <a class="header__inner-nav-link" href="#interests">My interests</a>
+               <a class="header__inner-nav-link" href="#midjourney">Midjourney</a>
+               <a class="header__inner-nav-link" href="#footer">Contacts</a>
             </nav>
-            <button class="burger" type="button" id="navToggle">
-               <span class="burger_item">Menu</span>
+            <button class="header__inner-burger" type="button" id="navToggle">
+               <span class="header__inner-burger-line">Menu</span>
             </button>
          </div>
       </div>
@@ -33,11 +33,11 @@
       <div class="intro" id="intro">
          <div class="container">
             <div class="intro__inner">
-               <img class="intro__img" src="assets/img/photo.jpg" alt="photo">
-               <div class="intro__text">
-                  <h2 class="intro__title">Anton Golomuzdov</h2>
-                  <h3 class="intro__subtitle">Frontend Developer</h3>
-                  <h3 class="intro__slogan"><i>Hello, My name is Anton. I am 27 years old. In the future, I would really like to work and progress in the field of IT. I like smart and progressive people who work in this field. My strengths include planning in advance, quick learner, punctuality and not afraid of the new. In people I value responsibility, courtesy, reliability, continuous development and bringing what has been started to the result.</i></h3>
+               <img class="intro__inner-img" src="assets/img/photo.jpg" alt="photo">
+               <div class="intro__inner-text">
+                  <h1 class="intro__inner-text-title">Anton Golomuzdov</h1>
+                  <h3 class="intro__inner-text-subtitle">Frontend Developer</h3>
+                  <h3 class="intro__inner-text-slogan"><i>Hello, My name is Anton. I am 27 years old. In the future, I would really like to work and progress in the field of IT. I like smart and progressive people who work in this field. My strengths include planning in advance, quick learner, punctuality and not afraid of the new. In people I value responsibility, courtesy, reliability, continuous development and bringing what has been started to the result.</i></h3>
                </div>
             </div>
          </div>
@@ -64,68 +64,49 @@
          </div>
       </div>
 
-      <div class="skills" id="skills">
+      <div class="interests" id="interests">
          <div class="container">
-            <div class="skills__inner">
+            <div class="interests__inner">
                <div class="title">
                   <span>
-                     Skills
+                     My interests
                   </span>
                </div>
-               <div class="skills__items">
-                  <img class="skills__icons" src="assets/svg/html-icon.svg" alt="html">
-                  <img class="skills__icons" src="assets/svg/css-icon.svg" alt="css">
-                  <img class="skills__icons" src="assets/svg/js-icon.svg" alt="js">
-                  <img class="skills__icons" src="assets/svg/ts-icon.svg" alt="ts">
-                  <img class="skills__icons" src="assets/svg/webpack-icon.svg" alt="webpack">
-                  <img class="skills__icons" src="assets/svg/git-icon.svg" alt="git">
-                  <img class="skills__icons" src="assets/svg/sass-icon.svg" alt="sass">
-                  <img class="skills__icons" src="assets/svg/npm-icon.svg" alt="npm">
+               <div class="interests__inner-items">
+                  <img class="interests__inner-items-icons" src="assets/svg/f-icon.svg" alt="f">
+                  <img class="interests__inner-items-icons" src="assets/svg/r-icon.svg" alt="r">
+                  <img class="interests__inner-items-icons" src="assets/svg/o-icon.svg" alt="o">
+                  <img class="interests__inner-items-icons" src="assets/svg/n-icon.svg" alt="n">
+                  <img class="interests__inner-items-icons" src="assets/svg/t-icon.svg" alt="t">
+                  <img class="interests__inner-items-icons" src="assets/svg/e-icon.svg" alt="e">
+                  <img class="interests__inner-items-icons" src="assets/svg/n-icon.svg" alt="n">
+                  <img class="interests__inner-items-icons" src="assets/svg/d-icon.svg" alt="d">
                </div>
             </div>
          </div>
       </div>
 
-      <div class="motivation" id="motivation">
+      <div class="midjourney" id="midjourney">
          <div class="container">
-            <div class="motivation__inner">
+            <div class="midjourney__inner">
                <div class="title">
                   <span>
-                     Motivation
+                     Midjourney
                   </span>
                </div>
-               <div class="slider__container slider">
-                  <div class="slider__items">
-                     <input type="radio" name="slider" id="slider_1" checked>
-                     <input type="radio" name="slider" id="slider_2">
-                     <input type="radio" name="slider" id="slider_3">
-                     <input type="radio" name="slider" id="slider_4">
-                  <div class="slider__content" id="content">
-                     <div class="slide s1"><img src="assets/img/quote-1.jpg" alt="quote-1"></div>
-                     <div class="slide"><img src="assets/img/quote-2.jpg" alt="quote-2"></div>
-                     <div class="slide"><img src="assets/img/quote-3.jpg" alt="quote-3"></div>
-                     <div class="slide"><img src="assets/img/quote-4.jpg" alt="quote-4"></div>
+               
+               <div class="midjourney__inner-slider">
+                  <div class="midjourney__inner-slider-line">
+                     <img src="assets/img/img-1.png" alt="">
+                     <img src="assets/img/img-2.png" alt="">
+                     <img src="assets/img/img-3.png" alt="">
+                     <img src="assets/img/img-4.png" alt="">
                   </div>
-                  <div class="slider__navigation" id="navigation">
-                     <div class="slider__navigation-container">
-                        <div class="slider__navigation-items">
-                           <label for="slider_1" class="nav_item">
-                              <span></span>
-                           </label>
-                           <label for="slider_2" class="nav_item">
-                              <span></span>
-                           </label>
-                           <label for="slider_3" class="nav_item">
-                              <span></span>
-                           </label>
-                           <label for="slider_4" class="nav_item">
-                              <span></span>
-                           </label>
-                        </div>
-                     </div>
-                  </div>
-                  </div>
-               </div>
+              </div>
+      
+              <button class="midjourney__inner-button midjourney__inner-button_prev"><img class="midjourney__inner-button-svg" src="assets/svg/left.svg" alt="prev"></button>
+              <button class="midjourney__inner-button midjourney__inner-button_next"><img class="midjourney__inner-button-svg" src="assets/svg/right.svg" alt="next"></button>
+
             </div>
          </div>
       </div>
@@ -135,21 +116,21 @@
    <footer class="footer" id="footer">
       <div class="container">
          <div class="footer__inner">
-            <div class="footer__contacts">
-               <div class="footer__item">
-                  <a href="https://www.linkedin.com/in/anton-golomuzdov-069545255/" target="_blank"><img class="footer__contacts-logo" src="assets/svg/linkedin-icon.svg" alt="linkedin"></a>
+            <div class="footer__inner-contacts">
+               <div class="footer__inner-contacts-item">
+                  <a href="https://www.linkedin.com/in/anton-golomuzdov-069545255/" target="_blank"><img class="footer__inner-contacts-item-logo" src="assets/svg/linkedin-icon.svg" alt="linkedin"></a>
                </div>
-               <div class="footer__item">
-                  <a href="https://t.me/MSteelver" target="_blank"><img class="footer__contacts-logo" src="assets/svg/telegram-icon.svg" alt="telegram"></a>
+               <div class="footer__inner-contacts-item">
+                  <a href="https://t.me/MSteelver" target="_blank"><img class="footer__inner-contacts-item-logo" src="assets/svg/telegram-icon.svg" alt="telegram"></a>
                </div>
-               <div class="footer__item">
-                  <a href="https://github.com/Golomuzdov" target="_blank"><img class="footer__contacts-logo" src="assets/svg/github-icon.svg" alt="github"></a>
+               <div class="footer__inner-contacts-item">
+                  <a href="https://github.com/Golomuzdov" target="_blank"><img class="footer__inner-contacts-item-logo" src="assets/svg/github-icon.svg" alt="github"></a>
                </div>
             </div>
-            <div class="footer__datamola">
-               <p class="datamola-text">Created for</p>
-               <a href="https://www.datamola.com/js-from-zero-to-hero" target="_blank"><img class="datamola" src="assets/img/datamola.jfif" alt="datamola"></a>
-               <p class="datamola-text">DataMola</p>
+            <div class="footer__inner-datamola">
+               <p class="footer__inner-datamola-text">Created for</p>
+               <a href="https://www.datamola.com/js-from-zero-to-hero" target="_blank"><img class="footer__inner-datamola-img" src="assets/img/datamola.jfif" alt="datamola"></a>
+               <p class="footer__inner-datamola-text">DataMola</p>
             </div>
          </div>
       </div>
